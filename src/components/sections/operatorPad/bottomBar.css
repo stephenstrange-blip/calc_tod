@@ -1,0 +1,16 @@
+.grid {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bar {
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 2px dashed red; */
+  width: 14%;
+  margin-left: 6%
+}

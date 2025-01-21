@@ -1,0 +1,12 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-basis: 1;
+  width: 14%;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 15px;
+}
