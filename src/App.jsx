@@ -8,7 +8,7 @@ import InputNum from './components/sections/core/calcFunctions';
 
 function App() {
   const [num1, num2, setNum, operator, setOperator, answer] = InputNum();
-  console.log(`From the App. ${!operator}`)
+  console.log(`\nOperator is not yet pressed! ${!operator}`)
   
   return ( 
     <div className="App">
