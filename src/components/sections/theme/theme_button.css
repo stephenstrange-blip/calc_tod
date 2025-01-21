@@ -1,0 +1,10 @@
+button {
+    border-radius: 30px;
+}
+.theme {
+    transition-duration: .5s;
+}
+.theme:hover {
+    background-color: aquamarine;
+    font-family:'Times New Roman', Times, serif;
+}
