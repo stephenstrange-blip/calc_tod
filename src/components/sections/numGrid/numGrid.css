@@ -19,3 +19,9 @@
     flex-flow: row wrap;
     width: fit-content;
 }
+.grid {
+    transition-duration: .5s;
+}
+.grid:hover {
+    background-color: grey;
+}
