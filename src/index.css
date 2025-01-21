@@ -5,10 +5,18 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color:blanchedalmond;
+    color: darkslategray;
+    transition-duration: .5s;
   }
-  
-  code {
+.dark-mode {
+    background-color: darkslategray;
+    color: blanchedalmond;
+    transition-duration: .5s;
+}
+code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+}
+
   

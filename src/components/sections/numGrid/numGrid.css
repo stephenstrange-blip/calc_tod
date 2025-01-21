@@ -1,6 +1,8 @@
 .upper-container {
     display: flex;
     flex-flow: row wrap;
+    box-shadow: 1px -3px 10px .1px;
+    border-radius: 10px;
 }
 .numPad {
     display: flex;
@@ -21,6 +23,7 @@
 }
 .grid {
     transition-duration: .5s;
+    cursor: pointer;
 }
 .grid:hover {
     background-color: grey;

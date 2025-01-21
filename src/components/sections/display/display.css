@@ -4,9 +4,16 @@
   align-items: center;
   flex-flow: row wrap;
   flex-basis: 1;
-  width: 14%;
+  min-width: 14%;
+  max-width: fit-content;
   border: 2px solid black;
   border-radius: 10px;
   height: 40px;
   margin-top: 15px;
+  box-shadow: -2px -2px 5px inset;
+  transition-duration: .5s;
+  cursor: progress;
+}
+.display:hover {
+  background-color: rgb(156, 206, 189);
 }

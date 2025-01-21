@@ -1,8 +1,9 @@
 import './theme_button.css'
+import App from '../../../App';
 function Theme_button() {
     function turnDark() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
+        var body = document.body;        
+        body.classList.toggle("dark-mode");
     }
     return (
         <>
